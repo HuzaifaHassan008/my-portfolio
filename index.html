@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Huzaifa Hassan - HTML and CSS web development portfolio.">
+  <title>Huzaifa Hassan | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">Huzaifa<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HTML &amp; CSS Web Development</p>
+        <h1>Hi, I'm <span>Huzaifa Hassan</span></h1>
+        <h2>I create clean and responsive web experiences.</h2>
+        <p class="intro">I build simple, modern and mobile-friendly pages for personal portfolios, businesses and landing pages.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View My Work</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Web development illustration">
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p><span class="code-purple">const</span> developer = {</p>
+          <p class="indent">name: <span class="code-green">'Huzaifa'</span>,</p>
+          <p class="indent">skills: [<span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>]</p>
+          <p>};</p>
+          <div class="code-mark"> &lt;/&gt; </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">Get to know me</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-panel">
+        <p>I'm Huzaifa Hassan, a learner and aspiring web developer interested in creating attractive, easy-to-use websites. I work with HTML and CSS and keep improving my skills through practical projects.</p>
+        <p>My focus is on clear layouts, readable code and responsive designs that look good on different screen sizes.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">What I use</p>
+        <h2>My Skills</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">5</div><h3>HTML5</h3><p>Building structured web pages.</p></article>
+        <article class="skill-card"><div class="skill-icon">3</div><h3>CSS3</h3><p>Styling layouts and responsive designs.</p></article>
+        <article class="skill-card"><div class="skill-icon">↗</div><h3>Responsive Design</h3><p>Making pages adapt to different screens.</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>My Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-art art-one"><span>Portfolio</span></div>
+          <div class="project-content"><h3>Personal Portfolio</h3><p>A simple personal portfolio layout to introduce skills and projects.</p><span class="tag">HTML · CSS</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-two"><span>Business</span></div>
+          <div class="project-content"><h3>Business Landing Page</h3><p>A clean landing page concept for a small business.</p><span class="tag">HTML · CSS</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-three"><span>College</span></div>
+          <div class="project-content"><h3>College Website Concept</h3><p>A multi-section design concept for an educational institute.</p><span class="tag">HTML · CSS</span></div>
+        </article>
+      </div>
+      <p class="project-note">These are sample project descriptions. Replace them with screenshots and details of your real work before sharing your portfolio with clients.</p>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">Let's connect</p>
+        <h2>Have a project in mind?</h2>
+        <p>Tell me what you need, and let's discuss your ideas.</p>
+        <a class="button primary" href="https://www.fiverr.com/" target="_blank" rel="noopener noreferrer">Find Me on Fiverr</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Huzaifa Hassan. Built with HTML &amp; CSS.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
